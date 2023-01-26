@@ -1,0 +1,54 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #8e8c91;
+}
+body {
+  background-color: #edf1f5;
+}
+
+.movie-area {
+  width: 1920px;
+  margin: 100px auto;
+}
+.ul-area {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+li {
+  list-style: none;
+  display: flex;
+  background-color: #fff;
+  padding-left: 30px;
+  margin: 50px 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+}
+li img {
+  transform: translateY(-10%);
+  transition: all 0.4s ease;
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+}
+li img:hover {
+  transform: translateY(-15%);
+  box-shadow: rgba(0, 0, 0, 0.4) 1px 1px, rgba(0, 0, 0, 0.3) 4px 4px, rgba(0, 0, 0, 0.2) 8px 8px, rgba(0, 0, 0, 0.1) 10px 10px, rgba(0, 0, 0, 0.05) 13px 13px;
+}
+.movie-txt {
+  width: 400px;
+  padding: 10px 40px;
+}
+.movie-txt h2 {
+  color: #111;
+  margin: 20px 0 0 0;
+}
+.movie-txt p:nth-child(2) {
+  padding-bottom: 15px;
+}
+.movie-txt p:nth-child(3) {
+  padding-bottom: 20px;
+}
+p {
+  font-size: 15px;
+}
